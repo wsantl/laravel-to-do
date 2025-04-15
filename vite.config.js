@@ -9,7 +9,6 @@ export default defineConfig({
             input: ['resources/css/app.css', 'resources/js/app.js'],
             refresh: true,
         }),
-        tailwindcss(),
         vue({
             template: {
                 transformAssetUrls: {
@@ -18,14 +17,13 @@ export default defineConfig({
                 },
             },
         }),
-        
     ],
     server: {
         hmr: {
             host: 'localhost',
         },
         proxy: {
-            '/api': 'http://localhost:8000', // Redireciona chamadas de API para o Laravel
+            '/api': 'http://localhost:8000',
         },
     },
 });
