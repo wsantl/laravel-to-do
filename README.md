@@ -12,8 +12,8 @@ Aplicação web para gerenciar tarefas com **Laravel**, **Vue.js** e **Tailwind 
 
 1. **Clonar**
    ```bash
-   git clone https://github.com/seu-usuario/lista-de-tarefas.git
-   cd lista-de-tarefas ```
+   git clone https://github.com/wsantl/laravel-to-do.git
+   cd laravel-to-do ```
 
 2. **Ambiente**
    ```bash
