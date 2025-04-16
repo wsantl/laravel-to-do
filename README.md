@@ -39,11 +39,11 @@ Aplicação web para gerenciar tarefas com **Laravel**, **Vue.js** e **Tailwind 
    php artisan serve
    npm run dev
 
-
 #### Acessar ####
     
-   http://localhost:8000 (Página inicial)
-   http://localhost:8000/login (login)
+http://localhost:8000 (Página inicial)
+   
+http://localhost:8000/login (login)
 
 
    
