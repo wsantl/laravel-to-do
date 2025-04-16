@@ -13,7 +13,7 @@ Aplicação web para gerenciar tarefas com **Laravel**, **Vue.js** e **Tailwind 
 1. **Clonar**
    ```bash
    git clone https://github.com/wsantl/laravel-to-do.git
-   cd laravel-to-do ```
+   cd laravel-to-do
 
 2. **Ambiente**
    ```bash
@@ -39,7 +39,7 @@ Aplicação web para gerenciar tarefas com **Laravel**, **Vue.js** e **Tailwind 
    php artisan serve
    npm run dev
 
-#### Acessar ####
+**#### Acessar ####**
     
 http://localhost:8000 (Página inicial)
    
