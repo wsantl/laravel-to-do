@@ -46,13 +46,15 @@ http://localhost:8000 (Página inicial)
 http://localhost:8000/login (login)
 
 
-**Caso haja problema no passo 3 (composer install), siga os passos abaixo:**
+**Caso haja problemas na instalação das dependências, siga os passos abaixo:**
 
 abra o arquivo php.ini
 procure as seguintes linhas:
 
     ;extension=fileinfo
     ;extension=zip
+    ;extension=pdo_sqlite
+
 
 e remova o ";" do início da linha.
 salve e feche o arquivo.
