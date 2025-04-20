@@ -51,8 +51,8 @@ http://localhost:8000/login (login)
 abra o arquivo php.ini
 procure as seguintes linhas:
 
-;extension=fileinfo
-;extension=zip
+    ;extension=fileinfo
+    ;extension=zip
 
 e remova o ";" do início da linha.
 salve e feche o arquivo.
